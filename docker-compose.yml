@@ -20,7 +20,7 @@ services:
         links:
             - db
         ports:
-            - "3001:3000"
+            - "3001:3001"
     ngbuild:
         build: ./usdaweb 
         volumes:
@@ -30,7 +30,7 @@ services:
         volumes:
             - ng2:/usr/share/nginx/html
         ports:
-            - "80:80"
+            - "9090:9090"
         depends_on:
             - descriptions
 volumes:

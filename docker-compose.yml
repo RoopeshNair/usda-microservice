@@ -14,7 +14,7 @@ services:
         links: 
             - db
         ports:
-            - "3000:3000"
+            - "3002:3001"
     nutrients:
         build: ./nutrients
         links:

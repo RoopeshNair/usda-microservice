@@ -48,7 +48,7 @@ stages:
           - script: echo deploying
 - stage: Prod
   displayName: Prod stage
-  dependsOn: Deploy
+  dependsOn: staging
   jobs:
   - deployment: Deploy
     displayName: Deploy job

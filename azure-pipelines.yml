@@ -34,7 +34,7 @@ stages:
     steps:
     - script: echo build and push
 - stage: staging
-  displayName: 'Deploy to Staging'
+  displayName: 'Staging'
   dependsOn: Build
   jobs:
   - deployment: Deploy

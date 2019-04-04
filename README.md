@@ -65,6 +65,8 @@ You can type text to filter results and/or restrict it to a group (the text filt
 
 `docker-compose down` 
 
+# fix TTL for usda microservice
+
 Optionally: 
 
 `docker system prune` 
